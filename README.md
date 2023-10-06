@@ -67,7 +67,7 @@ I want to save your time and copy some definitions from book<sup>5</sup>.
 
 - **Services** When a significant process or transformation in the domain is not a natural responsibility of an entity or value object, add an operation to the model as a standalone interface declared as a service. Define a service contract, a set of assertions about interactions with the service.
 
-- **Modules** Choose modules that tell the story of the system and contain a cohesive set of concepts. Give the modules names that become part of the ubiquitous language. Modules are part of the model and their names should reflect insight into the domain.
+- **Modules** Choose modules that tell the story of the system and contain a cohesive set of concepts. Give the modules names that become part of the ubiquitous language. Modules are part of the model and their names should reflect insight into the domain.  
 ![image](pics/modules.png) *© Michael Plöd*
 
 - **Aggregates** Cluster the entities and value objects into aggregates and define boundaries around each. Choose one entity to be the root of each aggregate, and allow external objects to hold references to the root only (references to internal members passed out for use within a single operation only). Define properties and invariants for the aggregate as a whole and give enforcement responsibility to the root or some designated framework mechanism.  
@@ -107,7 +107,7 @@ I don't want to tell you - these are the best links. These are just some links t
 3. Eric Evanc [Domain-Driven Design](https://www.amazon.com/dp/0321125215/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=CG11VVP0H8Y8&coliid=I1X0NXLUHTFGE4) (about 450 pages)  
 ![image](pics/ddd-book-blue.png)  
 
-4. Alberto Brandolini [Introducing EventStorming](https://leanpub.com/introducing_eventstorming)
+4. Alberto Brandolini [Introducing EventStorming](https://leanpub.com/introducing_eventstorming)  
 ![image](pics/ddd-book-event-storming.png)  
 
 5. Eric Evans [DDD Reference](https://www.domainlanguage.com/ddd/reference/) Free PDF.
