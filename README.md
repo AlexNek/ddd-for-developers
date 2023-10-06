@@ -17,7 +17,7 @@ When a developer sees the same space:
 Can you see? Both people cannot work well together, they use different language for the same objects.
 Would it not be better if we spoke a common language?
 
-The next example. Do you remember a similar structure in your project?
+The next example. Do you remember a similar structure in your project?  
 ![image](pics/customer1.png)
 *Pic 3. Common object. (© Michael Plöd)*
 ![image](pics/customer2.png)
@@ -33,21 +33,21 @@ Do you remember class inheritance and how every object can run?
  ![image](pics/car.png)
  *Pic 6. Class definition and implementation. (© aigents.co)*
  ![image](pics/oop-example.png)
- *Pic 7. OOP example. (© www.iameans.top)*
+*Pic 7. OOP example. (© www.iameans.top)*
  ![image](pics/layered-architecture.png)
  *Pic 8. OOP Layers. (© www.iameans.top)*
 2. Our application follow our buisness rules. A person start an action, we check some rules and finish the action.
 ![image](pics/ddd-layers.png)
 *Pic 9. DDD Layers 2003.(© Eric Evans)*
 ![image](pics/onion.png)
-*Pic x. Onion Architecture.(© Constantin Gustov)*
+*Pic 10. Onion Architecture.(© Constantin Gustov)*
 ![image](pics/ddd-arch.png)
-*Pic x. Onion Architecture different view.(© Amichai Mantinband)*
+*Pic 11. Onion Architecture different view.(© Amichai Mantinband)*
 
 ## DDD vocabulary
 I want to save your time and copy some definitions from book<sup>5</sup>.
 ![image](pics/ddd-pattern.png)
-*Pic 9. Pattern Language Overview.(© Eric Evans)*
+*Pic 12. Pattern Language Overview.(© Eric Evans)*
 
 - **Domain**. A sphere of knowledge, influence, or activity. The subject area to which the user applies a program is the domain of the software.
 ![image](pics/subdomains-cat.png) *© Michael Plöd*
@@ -79,12 +79,12 @@ I want to save your time and copy some definitions from book<sup>5</sup>.
 
 Event storming is the most popular process modelling. The idea is to bring together software developers and domain experts and let them learn from each other. The result is based on repetitive actions taken from the real world.
 ![image](pics/estrming-base.png)
-*Pic x. Introducing EventStorming.(© Alberto Brandolini)*
+*Pic 13. Introducing EventStorming.(© Alberto Brandolini)*
 ![image](pics/dl-event-storming.png)
-*Pic x. Design Level EventStorming (© Michael Plöd)*
+*Pic 14. Design Level EventStorming (© Michael Plöd)*
 Here is an example of a possible result:
 ![image](pics/es-result.png)
-*Pic x. Event Storming by Judith birmoser.(© Judith Birmoser)*
+*Pic 15. Event Storming by Judith birmoser.(© Judith Birmoser)*
 > **Note**: Inside the ellipses is a bounded context
 
 
