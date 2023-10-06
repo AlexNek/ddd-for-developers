@@ -4,18 +4,18 @@
 
 ## Application example
 The most interesting question to ask is - what will my DDD application look like?
-I am trying to use the [example](https://github.com/PanKunik/buber-dinner) that is described in detail by [Amichai Mantinband](https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k)
+I am trying to use the [example](https://github.com/PanKunik/buber-dinner) that is described in detail by [Amichai Mantinband](https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k)  
 ![image](pics/ddd-details.png)
-*Pic x. DDD suggested application architecture.(© Amichai Mantinband)*
+*Pic. DDD suggested application architecture.(© Amichai Mantinband)*
 
-![image](pics/BuberDinner-arch-view.png)
+![image](pics/BuberDinner-arch-view.png)  
 *Pic. Example application project dependencies.*
 > **Note**: This is just an example, not an implementation guide.
 
 ### Domain project
 By default, domain project include parts of bounded contexts such as aggregates. Pay attention, they are immutable.
 It is very important in the world of DDD that objects don't have a public setter.
-![image](pics/BuberDinner-prj-domain.png)
+![image](pics/BuberDinner-prj-domain.png)  
 *Pic. Sample application domain project.*
 
 ![image](pics/BuberDinner-bill-td.png)
@@ -121,7 +121,7 @@ public class RegisterCommandHandler :
 ```
 
 ### Infrastructure project
-![image](pics/BuberDinner-prj-infrastructure.png)
+![image](pics/BuberDinner-prj-infrastructure.png)  
 *Pic. Sample application infrastructure project.*
 ```csharp
 public sealed class MenuRepository : IMenuRepository
@@ -141,7 +141,7 @@ public sealed class MenuRepository : IMenuRepository
 }
 ```
 ### Contracts project
-![image](pics/BuberDinner-prj-contracts.png)
+![image](pics/BuberDinner-prj-contracts.png)  
 *Pic. Sample application contracts project.*
 
 ```csharp
@@ -184,7 +184,7 @@ public record MenuItemResponse(
     string Description);
 ```
 ### API project
-![image](pics/BuberDinner-prj-api.png)
+![image](pics/BuberDinner-prj-api.png)  
 *Pic. Sample application API project.*
 ```csharp
 [Route("hosts/{hostId}/menus")]
@@ -215,5 +215,5 @@ public class MenusController : ApiController
 ```
 ## Sequence diagrams
 On the sequence diagram you can see the request/response flow.
-![image](pics/login-seq.png)
+![image](pics/login-seq.png)  
 ![image](pics/menu-seq.png)
