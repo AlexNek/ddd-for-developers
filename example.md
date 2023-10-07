@@ -4,7 +4,7 @@
 
 ## Application example
 The most interesting question to ask is - what will my DDD application look like?
-I am trying to use the [example](https://github.com/PanKunik/buber-dinner) that is described in detail by [Amichai Mantinband](https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k)  
+I am trying to use the [example](https://github.com/AlexNek/buber-dinner) that is described in detail by [Amichai Mantinband](https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k)  
 ![image](pics/ddd-details.png)  
 *Pic. DDD suggested application architecture.(© Amichai Mantinband)*
 
