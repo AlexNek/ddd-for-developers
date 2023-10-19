@@ -136,9 +136,11 @@ I don't want to tell you - these are the best links. These are just some links t
 ![image](pics/vid-am-restapi.png)
 
 ### Websites
+
 - [Domain-Driven Design Crew](https://github.com/ddd-crew)
 - [Free Domain-Driven Design Learning Resources](https://github.com/ddd-crew/free-ddd-learning-resources)
 - [Event Storming](https://www.eventstorming.com/)
 - [Design Level Event Storming with examples](https://mrpicky.dev/design-level-event-storming-with-examples/)
+- [Domain Driven Design (DDD) - Domain Centric](https://awesome-architecture.com/domain-driven-design/domain-driven-design). Links to: resources, articles, videos, samples.
 - [github - Domain Driven Design (DDD) N-LayeredArchitecture with .Net Core](https://github.com/cesarcastrocuba/nlayerappv3)
 - [github - An Event Sourcing service template with DDD, TDD and SOLID](https://github.com/ivanpaulovich/event-sourcing-castanha)
