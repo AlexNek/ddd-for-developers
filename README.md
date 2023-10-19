@@ -8,11 +8,11 @@ There is no big point in using DDD if you have a small project or don't have a b
 There are advantages and disadvantages to every design approach. We are trying to discover a few of them.
 The same things are seen in different ways depending on who is looking at them.
 When a domain expert sees the room:
-![image](pics/room-domain1.png)
+![image](pics/room-domain1.png)  
 *Pic 1. Business names. (© Michael Plöd)*
-![](http://)
+
 When a developer sees the same space:
-![image](pics/room-domain2.png)
+![image](pics/room-domain2.png)  
 *Pic 2. Naming in Software Code. (© Michael Plöd)*
 Can you see? Both people cannot work well together, they use different language for the same objects.
 Would it not be better if we spoke a common language?
@@ -134,13 +134,17 @@ I don't want to tell you - these are the best links. These are just some links t
 
 - Amichai Mantinband [ASP.NET 6 REST API Following CLEAN ARCHITECTURE & DDD Tutorial (19 parts)](https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k)  
 ![image](pics/vid-am-restapi.png)
-
+- Codewrinkles [DDD fundamentals (8 parts)](https://www.youtube.com/watch?v=kLLsVT_53bw&list=PL2E-vlKoo_v3ch9oZWYZWwRbqdVoWHY8X)
+- Codewrinkles [Social network from scratch with DDD (5 parst)](https://www.youtube.com/playlist?list=PL2E-vlKoo_v2AM3Bw_lfVZE_iLW-YS0sE)
+- Codewrinkles [Building a social network w/ DDD, .NET, Blazor Ep. 06](https://www.youtube.com/watch?v=qG27Sad1ItU)  
+![image](pics/codewrinkles.png)
 ### Websites
 
 - [Domain-Driven Design Crew](https://github.com/ddd-crew)
 - [Free Domain-Driven Design Learning Resources](https://github.com/ddd-crew/free-ddd-learning-resources)
+- [Domain Driven Design (DDD) - Domain Centric](https://awesome-architecture.com/domain-driven-design/domain-driven-design). Links to: resources, articles, videos, samples.
 - [Event Storming](https://www.eventstorming.com/)
 - [Design Level Event Storming with examples](https://mrpicky.dev/design-level-event-storming-with-examples/)
-- [Domain Driven Design (DDD) - Domain Centric](https://awesome-architecture.com/domain-driven-design/domain-driven-design). Links to: resources, articles, videos, samples.
+- [TaskoMask - ](https://medium.com/@hamed.shirbandi/real-world-open-source-project-based-on-ddd-es-cqrs-af261cc24353)  Real-world open-source project based on .NET 6 with Microservices, DDD, BDD and Testing concepts. [github](https://github.com/hamed-shirbandi/TaskoMask)
 - [github - Domain Driven Design (DDD) N-LayeredArchitecture with .Net Core](https://github.com/cesarcastrocuba/nlayerappv3)
 - [github - An Event Sourcing service template with DDD, TDD and SOLID](https://github.com/ivanpaulovich/event-sourcing-castanha)
