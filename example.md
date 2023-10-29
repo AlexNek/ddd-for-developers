@@ -12,6 +12,11 @@ I am trying to use the [example](https://github.com/AlexNek/buber-dinner) that i
 *Pic. Example application project dependencies.*
 > **Note**: This is just an example, not an implementation guide.
 
+### Points to look out for
+- Domain project: all classes are immutable, no public setters.
+- The interfaces are defined in the application project, but are implemented in the infrastructure project.
+- We can split commands/queries and their handlers using the mediatR library.
+
 ### Domain project
 By default, domain project include parts of bounded contexts such as aggregates. Pay attention, they are immutable.
 It is very important in the world of DDD that objects don't have a public setter.  
