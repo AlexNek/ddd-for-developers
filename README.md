@@ -6,14 +6,14 @@ There is a lot of information about DDD, but I can not find a short information 
 ## When DDD might be useful
 There is no big point in using DDD if you have a small project or don't have a big problem in the current project.
 There are advantages and disadvantages to every design approach. We are trying to discover a few of them.
-The same things are seen in different ways depending on who is looking at them.
-When a domain expert sees the room:
+The same things are seen in different ways depending on who is looking at them.  
+When a ***domain expert*** sees the room:
 ![image](pics/room-domain1.png)  
 *Pic 1. Business names. (© Michael Plöd)*
 
-When a developer sees the same space:
+When a ***developer*** sees the same space:
 ![image](pics/room-domain2.png)  
-*Pic 2. Naming in Software Code. (© Michael Plöd)*
+*Pic 2. Naming in Software Code. (© Michael Plöd)*  
 Can you see? Both people cannot work well together, they use different language for the same objects.
 Would it not be better if we spoke a common language?
 
@@ -22,11 +22,13 @@ The next example. Do you remember a similar structure in your project?
 *Pic 3. Common object. (© Michael Plöd)*
 ![image](pics/customer2.png)  
 *Pic 4. Division according to business areas. (© Michael Plöd)*  
+
 Which objects would you like?
 
 ## Two ways of thinking
+Let us compare how we might think:
 
-1. Our application is a collection of objects. Every object has attributes and methods - operations. Objects and data flow are our main guides.
+***1***. Our application is a collection of objects. Every object has attributes and methods - operations. Objects and data flow are our main guides.  
 Do you remember class inheritance and how every object can run?
 ![image](pics/inheritance.png)  
 *Pic 5. Class inheritance. (© libretexts.org)*
@@ -36,16 +38,25 @@ Do you remember class inheritance and how every object can run?
 *Pic 7. OOP example. (© www.iameans.top)*  
 ![image](pics/layered-architecture.png)  
 *Pic 8. OOP Layers. (© www.iameans.top)*  
-2. Our application follow our buisness rules. A person start an action, we check some rules and finish the action.
+<hr>
+
+***2***. Our application follow our buisness rules. A person start an action, we check some rules and finish the action.
+
 ![image](pics/ddd-layers.png)  
 *Pic 9. DDD Layers 2003.(© Eric Evans)*  
-![image](pics/onion.png)  
-*Pic 10. Onion Architecture.(© Constantin Gustov)*  
+
+Can you see the difference between this and the first way (Pic.8 vs Pic. 10)?
 ![image](pics/ddd-arch.png)  
-*Pic 11. Onion Architecture different view.(© Amichai Mantinband)*  
+*Pic 10. Onion Architecture different view.(© Amichai Mantinband)*  
+
+Most knowledgeable picture of domain-driven design architecture:
+![image](pics/onion.png)  
+*Pic 11. Onion Architecture.(© Constantin Gustov)*  
+So DDD does not require thinking about objects and data.
 
 ## DDD vocabulary
-I want to save your time and copy some definitions from book<sup>5</sup>.
+DDD is not so easy to learn, there are a lot of new things that you need to know.
+I want to save your time and copy some definitions from the book<sup>5</sup>.
 ![image](pics/ddd-pattern.png)  
 *Pic 12. Pattern Language Overview.(© Eric Evans)*
 
@@ -89,14 +100,15 @@ Here is an example of a possible result:
 
 
 ## Application example
+For better understanding I have found and improved a C# application.
 You can find description **[here](example.md)**
 
 ## Learn more
 
-I don't want to tell you - these are the best links. These are just some links to start with.
+I don't want to tell you - these are the best links. These are just some links to get you started.
 
 ### Books
-> **Note**: Reading order is important - 1, 2, 3.
+> **Note**: Reading order is important - 1, 2, 3 (<span style="color:green">green</span>, <span style="color:red">red</span>, <span style="color:blue">blue</span>)/(overview, easy to understand, academic explanation)
 
 1. Vaughn Vernon [Domain-Driven Design Distilled](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon-ebook/dp/B01JJSGE5S) (about 160 pages)  
 ![image](pics/ddd-book-green.png)  

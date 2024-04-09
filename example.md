@@ -13,9 +13,12 @@ I am trying to use the [example](https://github.com/AlexNek/buber-dinner) that i
 > **Note**: This is just an example, not an implementation guide.
 
 ### Points to look out for
-- Domain project: all classes are immutable, no public setters.
+Don't forget to check out the next few items:
+- Domain project: all classes are immutable, ***no public setters***!.
 - The interfaces are defined in the application project, but are implemented in the infrastructure project.
-- We can split commands/queries and their handlers using the mediatR library.
+- Using the mediatR library, we can split commands/queries and their handlers.
+- The code first fluent API used for EF configuration.
+- PK for table not created at database level.
 
 ### Domain project
 By default, domain project include parts of bounded contexts such as aggregates. Pay attention, they are immutable.
