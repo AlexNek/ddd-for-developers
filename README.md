@@ -96,8 +96,19 @@ Event storming is the most popular process modelling. The idea is to bring toget
 Here is an example of a possible result:
 ![image](pics/es-result.png)
 *Pic 15. Event Storming by Judith birmoser.(© Judith Birmoser)*
-> **Note**: Inside the ellipses is a bounded context
+> **Note 1**: Inside the ellipses is a bounded context
 
+
+> **Note 2**: Most used colors.
+ - *Domain Events* - orange
+ - *Commands* - light blue
+ - *Aggregates* - yellow
+ - *Issues* - red or purple
+ - *User Roles / Personas* - yellow with stick figure
+ - *Views* - green
+ - *Bounded contexts* - solid line, names on pink notes
+ - *Subdomains* - dashed lines
+ - *Event Flow* - arrows
 
 ## Application example
 For better understanding I have found and improved a C# application.
